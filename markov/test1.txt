@@ -1,0 +1,10 @@
+Hello Professor,
+
+
+I'm at a bit of a standstill when it comes to my clustering project. Mostly because all the work I need to do now depends on being able to read data in. And I completely forgot to ask you about that on Thursday.
+
+For example the bag o words is a symbol table and is implemented as a hash table. But I can't construct them until I know the size of the set of all scanned words. I can't know that either until I read all the documents in. So i'm not use what to do now until I get help with that.
+
+In the meantime, I thought it would be good to blaze through the genetics project since I have all this code now. I decided to weight the encounters since it did not make sense to me that a female would mate with a colorblind male 50% of the time. What I found though is that this project is different than the example ones we did in class.
+
+With the powder vs liquid example, we always knew the probabilities were static every year. one of the questions for our project states, "what is the long term distribution of the colorblind gene?". It does not make sense to solve this question by multiplying the same matrix over and over again because this matrix depends on a static colorblind gene distribution (namely, The initial generation chance one will mate with someone who has the gene). Normally I would make assumptions for simplicity, but it seems odd to me to assume these interactions have a negligible impact on the overall colorblind gene distribution, and make claims about the overall colorblind gene distribution. Am I approaching this question incorrectly?

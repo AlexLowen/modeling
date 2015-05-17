@@ -17,14 +17,18 @@ class vec_of_words{
 public:
     std::vector<std::string> document;
     vec_of_words(std::string&);
+    vec_of_words(std::string&, char);
     std::vector<std::string> strip(std::string&);
+    void next_file(const std::string&, char);
     void display();
+    size_t size() const {return document.size();}
 };
 
 struct bag{
     std::string key;
     int multiplicity;
     bag* next;
+    //~bag(){next=NULL;}
 };
 
 class hashST{
@@ -33,24 +37,33 @@ public:
     std::vector<std::string> symbol_table;
     int lim;
     
+    hashST();
     hashST(int);
     hashST(const hashST&);
     ~hashST();
     
     void clear(int);
-    int hash(std::string);
+    int hash(std::string) const;
 
-    int get(const std::string&);
+    int get (const std::string&) const;
     void put(const std::string&, int);
+    
+    //for sets
+    void put(const std::string&);
     void del(const std::string&);
     int size() const;
     std::vector<std::string> keys();
+    void display();
+    void contain(const vec_of_words&, int);
     
 };
 
-class bag_of_holding{
+
+class bag_of_holding: public hashST{
 public:
-    hashST* bag;
+    bag_of_holding();
+    bag_of_holding(const vec_of_words&, int);
+    bag_of_holding(const vec_of_words&, int, char);
     bag_of_holding(const bag_of_holding&);
     double cos(const bag_of_holding&);
     int operator *(const bag_of_holding&);

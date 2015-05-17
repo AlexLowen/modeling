@@ -5,6 +5,7 @@
 #include "SnQ.h"
 #include <iomanip>
 #include <string>
+#include <fstream>
 
 adj_list::adj_list() {
     lim=1000; sz=0;

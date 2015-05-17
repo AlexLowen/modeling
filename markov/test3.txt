@@ -1,0 +1,4 @@
+Mon, 2015-04-27 17:23
+SMC Cloud Print is a new service that allows users to print to library campus printers directly from their own computers or mobile devices wirelessly. IT Services is using the expected increased need for printed copy by students at the end of spring semester as a final test before rollout. Because students represent the greatest need, we ask that faculty and staff limit use of this service until the number of printers is expanded.
+
+Students can upload documents to SMC Cloud Print and later release documents from their personal print queues to library printers using any device that is connected to the internet.  Documents pending release to a printer will expire after 24 hours.  This printing service is administered by GaelPrint.  The cost of prints is deducted from a student's print balance account once the file is released from the queue and printed.  

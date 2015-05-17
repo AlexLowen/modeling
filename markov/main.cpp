@@ -16,139 +16,66 @@
 
 
 int main(int argc, const char * argv[]) {
-//    srand(time(NULL));
     
-    double SS=double(1)/double(3);
-    double SC=double(1)/double(3);
-    double CC=double(1)/double(3);
-    double SY=.5;
-    double CY=.5;
+    //int tot_file=2;
+    std::string yaar="test1.txt";
+    vec_of_words vec(yaar, 'r');
+    std::vector<bag_of_holding*> bg;
+    bag_of_holding goodies(vec, 1000);
+    bag_of_holding* pnt;
+    pnt=&goodies;
+    bg.push_back(pnt);
+
+    yaar="test0.txt";
+    vec_of_words vec1(yaar, 'r');
+    bag_of_holding goodies1(vec1, 1000);
+    pnt=&goodies1;
+    bg.push_back(pnt);
     
-    size_t tot=5;
-    adj_matrix mat=*new adj_matrix(tot);
+    yaar="test2.txt";
+    vec_of_words vec2(yaar, 'r');
+    bag_of_holding goodies2(vec2, 1000);
+    pnt=&goodies2;
+    bg.push_back(pnt);
     
-    adj_matrix mat3=*new adj_matrix(tot);
-    for(size_t i=0; i!=tot; i++) {
-        for(size_t j=0; j!=tot; j++) {
-            mat3.change_edge(i+1,j+1, 0.0);
-        }
-    }
-    mat3.change_edge(1,1,0.125);
-    mat3.change_edge(2,1,0.25);
-    mat3.change_edge(3,1,0.125);
-    mat3.change_edge(4,1,0.25);
-    mat3.change_edge(5,1,0.25);
+    yaar="test3.txt";
+    vec_of_words vec3(yaar, 'r');
+    bag_of_holding goodies3(vec3, 1000);
+    pnt=&goodies3;
+    bg.push_back(pnt);
     
-    mat.change_edge(1,1,SS*0.25);
-    mat.change_edge(1,2,SS*0.125);
-    mat.change_edge(1,3,SS*0);
-    mat.change_edge(1,4,SS*0.25);
-    mat.change_edge(1,5,SS*0);
-    mat.change_edge(2,1,SC*0.25);
-    mat.change_edge(2,2,SC*0.25);
-    mat.change_edge(2,3,SC*0.25);
-    mat.change_edge(2,4,SC*0.25);
-    mat.change_edge(2,5,SS*0.25);
-    mat.change_edge(3,1,CC*0);
-    mat.change_edge(3,2,CC*0.125);
-    mat.change_edge(3,3,CC*0.25);
-    mat.change_edge(3,4,CC*0);
-    mat.change_edge(3,5,SS*0.25);
-    mat.change_edge(4,1,SY*0.5);
-    mat.change_edge(4,2,SY*0.25);
-    mat.change_edge(4,3,SY*0);
-    mat.change_edge(4,4,SY*0.25);
-    mat.change_edge(4,5,SY*0.25);
-    mat.change_edge(5,1,CY*0);
-    mat.change_edge(5,2,CY*0.25);
-    mat.change_edge(5,3,CY*0.5);
-    mat.change_edge(5,4,CY*0.25);
-    mat.change_edge(5,5,CY*0.25);
+    adj_matrix Tmatrix=4;
+    Tmatrix.change_edge(1, 1, 1.0);
+    Tmatrix.change_edge(1, 2, bg[0]->cos(*bg[1]));
+    Tmatrix.change_edge(1, 3, bg[0]->cos(*bg[2]));
+    Tmatrix.change_edge(1, 4, bg[0]->cos(*bg[3]));
     
-    mat.normalize(3,0.5);
-    mat.normalize(3,5,0.5);
-    adj_matrix mat2=mat;
-    adj_matrix mat4=mat3;
+    Tmatrix.change_edge(2, 1, bg[1]->cos(*bg[0]));
+    Tmatrix.change_edge(2, 2, 1.0);
+    Tmatrix.change_edge(2, 3, bg[1]->cos(*bg[2]));
+    Tmatrix.change_edge(2, 4, bg[1]->cos(*bg[3]));
+    
+    Tmatrix.change_edge(3, 1, bg[2]->cos(*bg[0]));
+    Tmatrix.change_edge(3, 2, bg[1]->cos(*bg[2]));
+    Tmatrix.change_edge(3, 3, 1.0);
+    Tmatrix.change_edge(3, 4, bg[3]->cos(*bg[2]));
+    
+    Tmatrix.change_edge(4, 1, bg[0]->cos(*bg[3]));
+    Tmatrix.change_edge(4, 2, bg[1]->cos(*bg[3]));
+    Tmatrix.change_edge(4, 3, bg[2]->cos(*bg[3]));
+    Tmatrix.change_edge(4, 4, 1.0);
+    
+    Tmatrix.normalize();
+    adj_matrix Longterm_matrix=Tmatrix;
+    
     for(size_t i=0; i!=100; i++) {
-        mat*=mat2;
+        Longterm_matrix*=Tmatrix;
+        Longterm_matrix.power_entry(2);
+        Longterm_matrix.normalize();
+        
     }
-    mat3*=mat2;
-    mat4*=mat;
-    mat3.display();
-    std::cout<<std::endl;
-    mat4.display();
-//    mat.change_edge(1,1,0.25);
-//    mat.change_edge(1,2,.333333333333);
-//    mat.change_edge(1,3,0.5);
-//    mat.change_edge(1,4,.333333333333);
-//    mat.change_edge(2,1,0.25);
-//    mat.change_edge(2,2,.333333333333);
-//    mat.change_edge(2,3,0.0);
-//    mat.change_edge(2,4,.333333333333);
-//    mat.change_edge(3,1,0.25);
-//    mat.change_edge(3,2,0);
-//    mat.change_edge(3,3,0.5);
-//    mat.change_edge(3,4,0.0);
-//    mat.change_edge(4,1,0.25);
-//    mat.change_edge(4,2,.333333333333);
-//    mat.change_edge(4,3,0.0);
-//    mat.change_edge(4,4,.333333333333);
     
-//    mat.change_edge(1,1,0.9);
-//    mat.change_edge(2,1,0.1);
-//    mat.change_edge(1,2,0.2);
-//    mat.change_edge(2,2,0.8);
-    /////////////
-//    double randnum;
-//    for(size_t j=1; j!=tot+1; j++) {
-//        for(size_t i=1; i!=tot+1; i++) {
-//            randnum=double(rand())/double(RAND_MAX);
-//            mat.change_edge(i,j,randnum);
-//        }
-//    }
-//    mat.normalize();
-//    mat.display();
-//    for(size_t i=1; i!=tot/2+1; i++) {
-//        for(size_t j=1; j!=tot/2+1; j++) {
-//            mat.change_edge(i,j,double(4)/double(3*tot));
-//        }
-//    }
-//    for(size_t i=tot/2+1; i!=tot+1; i++) {
-//        for(size_t j=1; j!=tot/2+1; j++) {
-//            mat.change_edge(i,j,double(2)/double(3*tot));
-//        }
-//    }
-//    for(size_t i=1; i!=tot/2+1; i++) {
-//        for(size_t j=tot/2+1; j!=tot+1; j++) {
-//            mat.change_edge(i,j,double(2)/double(tot));
-//        }
-//    }
-//    for(size_t i=tot/2+1; i!=tot+1; i++) {
-//        for(size_t j=tot/2+1; j!=tot+1; j++) {
-//            mat.change_edge(i,j,0.0);
-//        }
-//    }
-    
-//    std::cout<<std::endl;
-//    adj_matrix mat2=mat;
-//    for(size_t i=0; i!=100; i++) {
-//        mat.display();
-//        mat.power_entry(2);
-//        mat.power_entry(2);
-//        mat.display();
-//        mat.normalize();
-//        mat.display();
-//        mat*=mat2;
-//        std::cout<<std::endl;
-//        std::cout<<std::endl;
-//    }
-//    std::cout<<std::endl;
-//    mat.display();
-//    mat.file_display("text.txt");
-//    std::string test="Kie3 o4c12 hi!dad... yaarKC.2.4 . ";
-//    vec_of_words testvec=test;
-//    testvec.display();
-    
+    Longterm_matrix.display();
     
     return 0;
 }
