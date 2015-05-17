@@ -70,39 +70,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "276"
-            endingLineNumber = "276"
-            landmarkName = "adj_matrix::adj_matrix(size_t s)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "278"
-            endingLineNumber = "278"
-            landmarkName = "adj_matrix::adj_matrix(size_t s)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452651112.785556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "277"
@@ -118,12 +86,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452651112.785556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "264"
-            endingLineNumber = "264"
-            landmarkName = "adj_matrix::change_edge(size_t i, size_t j, double w)"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "adj_matrix::adj_matrix(size_t s)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -134,7 +102,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452651112.785556"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "adj_matrix::adj_matrix(size_t s)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/graph.cpp"
+            timestampString = "452651112.785556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "265"
@@ -150,11 +134,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452651112.785556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "308"
-            endingLineNumber = "308"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "adj_matrix::change_edge(size_t i, size_t j, double w)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/graph.cpp"
+            timestampString = "452651112.785556"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "309"
+            endingLineNumber = "309"
             landmarkName = "adj_matrix::operator*=(const adj_matrix&amp; mat)"
             landmarkType = "5">
          </BreakpointContent>
@@ -198,11 +198,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452651112.785556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "315"
-            endingLineNumber = "315"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
             landmarkName = "adj_matrix::operator*=(const adj_matrix&amp; mat)"
             landmarkType = "5">
          </BreakpointContent>
@@ -230,11 +230,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452746655.819453"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "368"
-            endingLineNumber = "368"
+            startingLineNumber = "369"
+            endingLineNumber = "369"
             landmarkName = "adj_matrix::power_entry(size_t power)"
             landmarkType = "5">
          </BreakpointContent>
@@ -246,11 +246,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452651112.785556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "344"
-            endingLineNumber = "344"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
             landmarkName = "adj_matrix::file_display(std::string fname)"
             landmarkType = "5">
          </BreakpointContent>
@@ -262,11 +262,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452746655.819453"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "361"
-            endingLineNumber = "361"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
             landmarkName = "adj_matrix::file_display(std::string fname)"
             landmarkType = "5">
          </BreakpointContent>
@@ -278,11 +278,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "451695471.380891"
+            timestampString = "452746655.819453"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "348"
-            endingLineNumber = "348"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
             landmarkName = "adj_matrix::file_display(std::string fname)"
             landmarkType = "5">
          </BreakpointContent>
@@ -294,11 +294,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/bag_of_holding.cpp"
-            timestampString = "452192653.026063"
+            timestampString = "452750107.982675"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "vec_of_words::strip(std::string&amp; str)"
             landmarkType = "5">
          </BreakpointContent>
@@ -310,11 +310,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/bag_of_holding.cpp"
-            timestampString = "452192653.026063"
+            timestampString = "452746655.819453"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "vec_of_words::strip(std::string&amp; str)"
             landmarkType = "5">
          </BreakpointContent>
@@ -326,7 +326,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/bag_of_holding.cpp"
-            timestampString = "452192653.026063"
+            timestampString = "452750107.982675"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "vec_of_words::strip(std::string&amp; str)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.cpp"
+            timestampString = "452750107.982675"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -342,7 +358,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/bag_of_holding.cpp"
-            timestampString = "452192653.026063"
+            timestampString = "452750107.982675"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -358,13 +374,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/bag_of_holding.cpp"
-            timestampString = "452192653.026063"
+            timestampString = "452755385.618802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "vec_of_words::strip(std::string&amp; str)"
-            landmarkType = "5">
+            startingLineNumber = "255"
+            endingLineNumber = "255">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -374,27 +388,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/bag_of_holding.cpp"
-            timestampString = "452192653.026063"
+            timestampString = "453055676.365271"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
-            landmarkName = "bag_of_holding::operator *(const bag_of_holding&amp; that)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "markov/bag_of_holding.cpp"
-            timestampString = "452192653.026063"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
             landmarkName = "bag_of_holding::operator *(const bag_of_holding&amp; that)"
             landmarkType = "5">
          </BreakpointContent>
@@ -406,13 +404,247 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "markov/graph.cpp"
-            timestampString = "452208798.279497"
+            timestampString = "452746655.819453"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "410"
-            endingLineNumber = "410"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
             landmarkName = "adj_matrix::normalize(size_t n, double scale_down)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/graph.cpp"
+            timestampString = "452746655.819453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "348"
+            endingLineNumber = "348"
+            landmarkName = "adj_matrix::file_display(std::string fname)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.cpp"
+            timestampString = "453055676.365271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "bag_of_holding::bag_of_holding(const vec_of_words&amp; doc, int l)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.cpp"
+            timestampString = "453055676.365271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "bag_of_holding::bag_of_holding(const vec_of_words&amp; doc, int l)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bag_of_holding::bag_of_holding(vec_of_words const&amp;, int)"
+                  moduleName = "markov"
+                  urlString = "file:///Users/alexlowen19/Desktop/Coding/markov/markov/bag_of_holding.cpp"
+                  timestampString = "452737273.761272"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "191"
+                  endingLineNumber = "191"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bag_of_holding::bag_of_holding(vec_of_words const&amp;, int)"
+                  moduleName = "markov"
+                  urlString = "file:///Users/alexlowen19/Desktop/Coding/markov/markov/bag_of_holding.cpp"
+                  timestampString = "452737273.761398"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.cpp"
+            timestampString = "452755385.618802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.h"
+            timestampString = "452753087.560942"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "class hashST"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.h"
+            timestampString = "452753087.560942"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "class hashST"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.h"
+            timestampString = "452753087.560942"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "class hashST"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.h"
+            timestampString = "452753087.560942"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "class hashST"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.cpp"
+            timestampString = "452755385.618802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.cpp"
+            timestampString = "452755385.618802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "hashST::get (const std::string&amp; k)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.cpp"
+            timestampString = "452755385.618802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "hashST::put(const std::string&amp; k, int val)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/bag_of_holding.cpp"
+            timestampString = "452755385.618802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "hashST::put(const std::string&amp; k)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "markov/main.cpp"
+            timestampString = "452753808.056711"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "main(int argc, const char * argv[])"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
